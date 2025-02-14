@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Noto+Sans+Avestan&family=Nova+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bubblegum+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Noto+Sans+Avestan&family=Nova+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bubblegum+Sans&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Grand+Hotel&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Londrina+Solid:wght@100;300;400;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Noto+Sans+Avestan&family=Nova+Mono&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Sigmar+One&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FFF;
     --foreground: #ededed;
   }
 }
@@ -19,3 +24,225 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.bubblegum-sans-regular {
+  font-family: "Bubblegum Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.black-han-sans-regular {
+  font-family: "Black Han Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grand-hotel-regular {
+  font-family: "Grand Hotel", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+@layer utilities {
+  .Link-manu-bar{
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Link-manu-bar{
+    @apply text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] text-[#595050] hover:text-[#000] duration-[0.3s]
+  }
+  .contactusbtn{
+    color: #FFF;
+    font-family: "Black Han Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    text-transform: uppercase;
+  }
+  .contactusbtn{
+    @apply text-[12px] sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px]
+  }
+  .valentineday{
+    color: #E03835;
+    font-family: "Grand Hotel";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 56px */
+    letter-spacing: 2px;
+  }
+  .onetrulovecupt{
+    color: #E03835;
+    -webkit-text-stroke-width: 0.79px;
+    -webkit-text-stroke-color: #D9323E;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 103.681px */
+    letter-spacing: 3.703px;
+  }
+  .scarcelketro{
+    color: #595050;
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+  }
+  .wcuptding{
+    color: #FFF;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+    letter-spacing: 3px;
+  }
+  .flowerwitl{
+    color: #F5DBDB;
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+    letter-spacing: 0.6px;
+  }
+  .howtobyepage{
+    color: #281414;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+    letter-spacing: 3px;
+  }
+  .setuppage{
+    color: #FFF;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 30px */
+    letter-spacing: 1.25px;
+  }
+  .tostopeandima{
+    color: #FFEBEB;
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 33px */
+  }
+  .animactionchat {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animactionchat:hover {
+    transform: scale(0.999);
+  }
+  .liuqistwes {
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 33.6px */
+    letter-spacing: 1.4px;
+  }
+  .tokenhesader{
+    color: #FEE7E7;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+    letter-spacing: 3px;
+  }
+  .totalsupport{
+    color: #FEE8E8;
+    text-align: center;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 46.8px */
+    letter-spacing: 1.8px;
+  }
+  .roadmapsection{
+    color: #000;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 72px */
+    letter-spacing: 3px;
+  }
+  .fallinglovingsection{
+    color: #FFF;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 36px */
+    letter-spacing: 1.5px;
+  }
+  .memeconsec{
+    color: #FFEBEB;
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 45px */
+  }
+  .joinmadmvers{
+    color: #FFF;
+    text-align: center;
+    leading-trim: both;
+    text-edge: cap;
+    font-family: "Black Han Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 48px */
+    letter-spacing: 2px;
+  }
+  .joivalentins{
+    color: #FFF;
+    text-align: center;
+    font-family: "Bubblegum Sans";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 28.8px */
+    letter-spacing: 1.2px;
+  }
+  .valentinedaysds{
+    color: #FFEBEB;
+    text-align: center;
+    font-family: Tahoma;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+
+
+@keyframes moveSvg {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.myDIV {
+  animation: moveSvg 2s infinite ease-in-out;
+}
+
+@keyframes moveSvgs {
+  0% { transform: translatex(0px); }
+  50% { transform: translatex(-10px); }
+  100% { transform: translatex(0px); }
+}
+
+.myDIVone {
+  animation: moveSvgs 2s infinite ease-in-out;
+}
+
+/* 
+.myDIV {
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  0% {transform: rotate(0deg);}
+  
+  100% {transform: rotate(365deg);}
+} */
