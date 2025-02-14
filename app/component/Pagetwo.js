@@ -24,9 +24,9 @@ const Pagetwo = () => {
         });
       }, []);
     return (
-        <div className='!bg-[#FFEBEB] relative overflow-hidden section-1'>
+        <div className='!bg-[#FFEBEB] relative overflow-hidden'>
             <Image className='w-full absolute top-0 left-0 h-full object-cover z-[0] select-none pointer-event-none' src={image12} alt=''/>
-            <div className='container mx-auto px-[24] sm:px-[0] md:px-[48px] lg:px-[64px] xl:px-[100px] 2xl:px-[174px] pb-[20px]'>
+            <div className='container mx-auto px-[24] sm:px-[0] md:px-[48px] lg:px-[64px] xl:px-[100px] 2xl:px-[174px] pb-[20px] section-1'>
                 <h2 className='howtobyepage text-[24px] sm:text-[32px] md:text-[36px] lg:text-[40px] xl:text-[48px] 2xl:text-[60px] pt-[32px] sm:pt-[36px] md:pt-[40px] lg:pt-[48px] xl:pt-[64px] 2xl:pt-[100px]  pb-[20px] sm:pb-[24px] md:pb-[32px] lg:pb-[36px] xl:pb-[40px] 2xl:pb-[44px]'>How to Buy</h2>
                 <div className='relative z-[2] bg-[#E03835] sm:bg-transparent py-[36px] sm:py-0'>
                     <svg className='w-full sm:block hidden' viewBox="0 0 1163 275" fill="none" xmlns="http://www.w3.org/2000/svg">

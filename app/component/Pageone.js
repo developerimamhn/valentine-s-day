@@ -7,20 +7,22 @@ import image8 from './image/image8.png'
 gsap.registerPlugin(ScrollTrigger);
 
 const Pageone = () => {
-    useEffect(() => {
-        gsap.to(".section-4", {
-          scrollTrigger: {
-            trigger: ".section-4",
-            start: "top top",
-            end: "+=700",
-            pin: true,
-            scrub: 2,
-          },
-        });
-      }, []);
+  useEffect(() => {
+    gsap.from(".section-4", {
+      opacity: 0,
+      y: 250,
+      duration: 2,
+      scrollTrigger: {
+        trigger: ".section-4",
+        start: "top 80%",
+        end: "top 50%",
+        scrub: 2,
+      },
+    });
+  }, []);
     return (
-        <div className='bg-[#E03835] section-4'>
-            <div className='flex justify-between flex-col sm:flex-row items-center relative sm:gap-0 gap-[24px]'>
+        <div className='bg-[#E03835] '> 
+            <div className='flex justify-between flex-col sm:flex-row items-center relative sm:gap-0 gap-[24px] section-4'>
             <svg className='w-[90%] absolute top-[50%] left-1/2 transform -translate-x-1/2 -translate-y-1/2' viewBox="0 0 1877 935" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M44.8353 289.27C4.85642 282.87 -5.57667 267.264 2.57692 254.726C6.5222 248.677 13.8867 248.94 18.9718 249.992C22.0403 250.606 24.3198 251.57 24.3198 251.57C24.3198 251.57 27.0377 235.088 38.6982 235C53.6903 235 61.0548 252.184 44.8353 289.27Z" fill="#CD2A25"/>
             <path d="M44.8353 289.27C4.85642 282.87 -5.57667 267.264 2.57692 254.726C6.5222 248.677 13.8867 248.94 18.9718 249.992C18.4457 249.992 5.47013 250.781 7.48661 264.634C10.0291 281.554 43.8709 289.094 44.8353 289.27Z" fill="#CD2A25"/>

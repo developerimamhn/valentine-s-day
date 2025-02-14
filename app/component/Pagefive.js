@@ -15,9 +15,9 @@ const Pagefive = () => {
                     <h2 className='joinmadmvers text-[16px] sm:text-[20px] md:text-[24px] lg:text-[32px] xl:text-[36px] 2xl:text-[40px]'>JOIN THE MAD MOVEMENT</h2>
                     <p className='joivalentins text-[13px] sm:text-[14px] md:text-[15px] lg:text-[16px] xl:text-[20px] 2xl:text-[24px] pt-[13px] sm:pt-[14px] md:pt-[15px] lg:pt-[16px] xl:pt-[20px] 2xl:pt-[24px]'>Join the Valentine Meme Club and let's have fun while making bank! <br className='sm:block hidden'/>Follow us for updates so juicy, you might get a buzz!</p>
                     <ul className=' manu-sosul-area flex items-center justify-center pt-[8px] md:pt-[12px] xl:pt-[16px]'>
-                        <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer' src={image1} alt=''/>
-                        <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer' src={image2} alt=''/>
-                        <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer' src={image3} alt=''/>
+                        <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer hover:brightness-125 duration-300' src={image1} alt=''/>
+                        <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer hover:brightness-125 duration-300' src={image2} alt=''/>
+                        <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer hover:brightness-125 duration-300' src={image3} alt=''/>
                     </ul>
                 </div>
             </div>

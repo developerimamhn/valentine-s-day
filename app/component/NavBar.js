@@ -66,9 +66,9 @@ const NavBar = () => {
                     <Link className={`Link-manu-bar`} href="#Roadmap">Roadmap</Link>
                 </nav>
                 <ul className=' manu-sosul-area flex items-center'>
-                    <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer' src={image1} alt=''/>
-                    <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer' src={image2} alt=''/>
-                    <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer' src={image3} alt=''/>
+                    <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer hover:brightness-125 duration-300' src={image1} alt=''/>
+                    <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer hover:brightness-125 duration-300' src={image2} alt=''/>
+                    <Image className='w-[50px] md:w-[70px] xl:w-[100px] cursor-pointer hover:brightness-125 duration-300' src={image3} alt=''/>
                     <button className='contactusbtn relative group'>
                     <svg xmlns="http://www.w3.org/2000/svg"  className='w-[130px] md:w-[180px] xl:w-[221px]' viewBox="0 0 221 74" fill="none">
                     <path d="M214.731 10.9269C203.008 -3.09791 168.628 0.925147 141.135 0.36639C109.357 -0.276181 77.6051 -0.080617 45.9586 1.00896C34.9717 1.40009 23.3277 2.0706 14.7327 7.46261C3.82469 14.3074 0.644273 26.9912 0.0660161 38.753C-0.459672 50.0958 1.98478 63.4222 13.5499 69.8479C21.0673 74.0106 30.4245 74.0665 39.1772 73.9827C79.9006 73.5543 120.633 73.1352 161.374 72.7255C169.311 72.6416 208.396 74.9325 215.756 63.5339C222.511 53.0851 223.326 21.1801 214.731 10.9269Z" className="fill-[#E03835] transition-colors duration-300 group-hover:fill-[#FF5733]"/>

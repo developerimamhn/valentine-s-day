@@ -11,12 +11,14 @@ gsap.registerPlugin(ScrollTrigger);
 
 const Header = () => {
     useEffect(() => {
-        gsap.to(".section-6", {
+        gsap.from(".section-6", {
+          opacity: 0,
+          y: 250,
+          duration: 2,
           scrollTrigger: {
             trigger: ".section-6",
-            start: "top top",
-            end: "+=800",
-            pin: true,
+            start: "top 80%",
+            end: "top 50%",
             scrub: 2,
           },
         });
